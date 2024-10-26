@@ -36,6 +36,8 @@ public class Lesson2 {
 
         double rand = 123 + Math.random() * 334;
 
+        double random = -50 + Math.random() * 100;
+
     }
 
     public double circleArea(double r){
