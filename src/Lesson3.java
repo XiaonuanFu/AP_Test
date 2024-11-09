@@ -73,6 +73,7 @@ public class Lesson3 {
         }
     }
 
+    // the value entered can be a char, int, or String, but not double because it might not match
     public static void doSwitch(int month){
         switch(month){
             case 12:
