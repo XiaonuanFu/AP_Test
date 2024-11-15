@@ -6,7 +6,7 @@ public class Lesson2 {
         Person n2 = new Person("Xiaonuan", 15); // here another new Person object is created called n2 but it has the exact same parameters as n1
         Person n3 = n1; // here n3 is made so that it is another tag for n1 (n1 and n3 point to the same object, but n1 and n2 point to different objects)
 
-        //System.out.println("Comparing n1 and n2" + n1 == n2); // the == operator compares if two references point to the same object in memory (here n1 and n2 point to 2 different Person objects so this returns as false)
+        System.out.println(n1 == n2); // the == operator compares if two references point to the same object in memory (here n1 and n2 point to 2 different Person objects so this returns as false)
         System.out.println(n1.equals(n2)); //the .equals() method compares the contents or values of two objects and if the contents are the same, it returns "true" and if the contents are different, it returns false
         //but why does this still return as false if n1 and n2 both have "Xiaonuan" and 15 as their parameters?
 
