@@ -48,6 +48,7 @@ public class Lesson7 {
 
     }
 
+
     public void printArrayList(ArrayList<String> list ){
         for (int i = 0; i < list.size(); i ++){ // 用.size()求ArrayList的大小
             System.out.println("Index at: " + i + " is " + list.get(i));
