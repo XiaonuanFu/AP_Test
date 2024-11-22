@@ -18,8 +18,8 @@ public class Main {
 //        System.out.println(lesson.Sum(5));
 //        double b = Math.abs(3.0);
 
-        Lesson6 lesson = new Lesson6();
-        lesson.doArray();
+        Lesson7 lesson = new Lesson7();
+        lesson.doArrayList();
 
         //类的方法调
 //
