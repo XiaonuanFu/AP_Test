@@ -18,8 +18,8 @@ public class Main {
 //        System.out.println(lesson.Sum(5));
 //        double b = Math.abs(3.0);
 
-        Lesson8 lesson = new Lesson8();
-        lesson.doArray5();
+        Lesson10 lesson = new Lesson10();
+        lesson.doLesson();
 
 //        double totalIncome = 0.0;
 //
